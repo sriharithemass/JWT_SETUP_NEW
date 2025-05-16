@@ -1,7 +1,7 @@
-package com.practice.practice.filter;
+package com.jwt_setup.filter;
 
-import com.practice.practice.service.CustomUserDetailsService;
-import com.practice.practice.util.JwtUtil;
+import com.jwt_setup.service.CustomUserDetailsService;
+import com.jwt_setup.util.JwtUtil;
 import io.jsonwebtoken.ExpiredJwtException;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

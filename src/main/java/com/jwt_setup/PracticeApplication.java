@@ -1,4 +1,4 @@
-package com.practice.practice;
+package com.jwt_setup;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

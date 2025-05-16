@@ -1,9 +1,9 @@
-package com.practice.practice.service;
+package com.jwt_setup.service;
 
-import com.practice.practice.model.AuthRequest;
-import com.practice.practice.model.Roles;
-import com.practice.practice.model.User;
-import com.practice.practice.repository.UserRepository;
+import com.jwt_setup.model.AuthRequest;
+import com.jwt_setup.model.Roles;
+import com.jwt_setup.model.User;
+import com.jwt_setup.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,8 +1,8 @@
-package com.practice.practice.configuration;
+package com.jwt_setup.configuration;
 
-import com.practice.practice.filter.JwtAuthFilter;
-import com.practice.practice.model.Roles;
-import com.practice.practice.service.CustomUserDetailsService;
+import com.jwt_setup.filter.JwtAuthFilter;
+import com.jwt_setup.model.Roles;
+import com.jwt_setup.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

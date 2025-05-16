@@ -1,4 +1,4 @@
-package com.practice.practice.model;
+package com.jwt_setup.model;
 
 import jakarta.validation.constraints.Size;
 

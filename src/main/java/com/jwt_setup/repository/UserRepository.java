@@ -1,6 +1,6 @@
-package com.practice.practice.repository;
+package com.jwt_setup.repository;
 
-import com.practice.practice.model.User;
+import com.jwt_setup.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,14 +1,10 @@
-package com.practice.practice.service;
+package com.jwt_setup.service;
 
-import com.practice.practice.model.AuthRequest;
-import com.practice.practice.model.User;
-import com.practice.practice.repository.UserRepository;
+import com.jwt_setup.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service

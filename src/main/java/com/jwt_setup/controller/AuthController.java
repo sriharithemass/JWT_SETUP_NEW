@@ -1,16 +1,14 @@
-package com.practice.practice.controller;
+package com.jwt_setup.controller;
 
-import com.practice.practice.model.AuthRequest;
-import com.practice.practice.service.CustomUserDetailsService;
-import com.practice.practice.service.UserService;
-import com.practice.practice.util.JwtUtil;
+import com.jwt_setup.model.AuthRequest;
+import com.jwt_setup.service.UserService;
+import com.jwt_setup.util.JwtUtil;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
